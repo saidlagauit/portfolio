@@ -1,107 +1,119 @@
 # Portfolio Next.js 🚀
 
-Modern portfolio website built with Next.js 14, Tailwind CSS, and Lucide React icons.
+A modern portfolio website built with **Next.js 14**, **Tailwind CSS**, and **Lucide React Icons**.
 
-## 📁 Structure / البنية
+## 📁 Project Structure
 
 ```
 portfolio-project/
 ├── app/
-│   ├── layout.jsx        # Layout رئيسي
-│   ├── page.jsx          # الصفحة الرئيسية
-│   └── globals.css       # Styles عامة
+│   ├── layout.jsx        # Main layout
+│   ├── page.jsx          # Home page
+│   └── globals.css       # Global styles
 ├── components/
-│   ├── AnimatedBackground.jsx  # الخلفية المتحركة
-│   ├── Header.jsx             # العنوان
-│   ├── Hero.jsx               # Hero section
-│   ├── Projects.jsx           # المشاريع
-│   ├── SocialLinks.jsx        # الروابط الاجتماعية
-│   ├── Contact.jsx            # معلومات الاتصال
-│   └── Footer.jsx             # Footer
+│   ├── AnimatedBackground.jsx  # Animated background
+│   ├── Header.jsx              # Header
+│   ├── Hero.jsx                # Hero section
+│   ├── Projects.jsx            # Projects section
+│   ├── SocialLinks.jsx         # Social media links
+│   ├── Contact.jsx             # Contact information
+│   └── Footer.jsx              # Footer
 ├── package.json
 ├── tailwind.config.js
 ├── postcss.config.js
 └── next.config.js
 ```
 
-## 🚀 Installation / التثبيت
+## 🚀 Installation
 
-### 1. Install dependencies / ثبت الحزم:
+### 1. Install dependencies:
+
 ```bash
 npm install
-# أو
+# or
 yarn install
-# أو
+# or
 pnpm install
 ```
 
-### 2. Run development server / شغل السيرفر:
+### 2. Run the development server:
+
 ```bash
 npm run dev
-# أو
+# or
 yarn dev
-# أو
+# or
 pnpm dev
 ```
 
-### 3. Open browser / افتح المتصفح:
-افتح [http://localhost:3000](http://localhost:3000)
+### 3. Open your browser:
 
-## ✏️ Customization / التخصيص
+Visit 👉 [http://localhost:3000](http://localhost:3000)
 
-### 1. **Personal Info / معلوماتك الشخصية:**
-غير في `components/Hero.jsx`:
-- اسمك / Your name
-- عنوانك / Your title
-- وصفك / Your description
+## ✏️ Customization
 
-### 2. **Projects / المشاريع:**
-غير في `components/Projects.jsx`:
-- أضف/حذف مشاريعك
-- غير الأيقونات والوصف
+### 1. **Personal Info**
 
-### 3. **Social Links / الروابط الاجتماعية:**
-غير في `components/SocialLinks.jsx`:
-- أضف روابط حساباتك الحقيقية
+Edit `components/Hero.jsx`:
 
-### 4. **Contact / الاتصال:**
-غير في `components/Contact.jsx`:
-- الإيميل ديالك
-- رابط Cal.com ديالك
+- Your name
+- Your title
+- Your description
 
-### 5. **Colors / الألوان:**
-غير الألوان في `tailwind.config.js` أو مباشرة في الكومبونونتات
+### 2. **Projects**
 
-## 🎨 Features / المميزات
+Edit `components/Projects.jsx`:
 
-- ✨ Animated background / خلفية متحركة
-- 🎯 Smooth animations / حركات سلسة
-- 📱 Fully responsive / متجاوب مع كل الشاشات
-- 🌙 Dark theme / ثيم داكن
-- 🎨 Modern design / تصميم عصري
-- ⚡ Fast performance / أداء سريع
+- Add or remove projects
+- Change icons and descriptions
 
-## 🛠️ Technologies / التقنيات
+### 3. **Social Links**
+
+Edit `components/SocialLinks.jsx`:
+
+- Add your real social media links
+
+### 4. **Contact**
+
+Edit `components/Contact.jsx`:
+
+- Your email address
+- Your Cal.com link
+
+### 5. **Colors**
+
+Update colors in `tailwind.config.js` or directly inside components
+
+## 🎨 Features
+
+- ✨ Animated background
+- 🎯 Smooth animations
+- 📱 Fully responsive design
+- 🌙 Dark theme
+- 🎨 Modern UI
+- ⚡ Fast performance
+
+## 🛠️ Technologies Used
 
 - Next.js 14
 - React 18
 - Tailwind CSS
 - Lucide React Icons
 
-## 📦 Build for production / البيلد للإنتاج
+## 📦 Production Build
 
 ```bash
 npm run build
 npm run start
 ```
 
-## 📝 Notes / ملاحظات
+## 📝 Notes
 
-- كل كومبونونت منفصل وسهل التعديل
-- استعمل Tailwind CSS للستايل
-- الأيقونات من Lucide React
-- الخطوط من Google Fonts
+- Each component is separated and easy to customize
+- Tailwind CSS is used for styling
+- Icons are provided by Lucide React
+- Fonts are loaded from Google Fonts
 
 ---
 
-Built with ❤️ by Your Name
+Built with ❤️ by **Said Lagauit**
